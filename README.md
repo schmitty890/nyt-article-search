@@ -13,6 +13,7 @@ To create an app for people wanting to search and read old and current news arti
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Mongoose](http://mongoosejs.com/)
+- [Moment.js](https://momentjs.com/)
 - [body-parser](https://www.npmjs.com/package/body-parser)
 - [Bootstrap](https://getbootstrap.com/docs/3.3/)
 - [Axios](https://github.com/axios/axios)
