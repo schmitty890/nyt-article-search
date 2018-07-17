@@ -1,7 +1,8 @@
 import React from 'react';
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
 
 const SearchFormLabel = (props) => (
-  <div>
+  <Aux>
     <label htmlFor={props.name}>{props.name}:</label>
     <input
       value={props.value}
@@ -10,7 +11,7 @@ const SearchFormLabel = (props) => (
       className="form-control"
     />
     <br></br>
-  </div>
+  </Aux>
 );
 
 export default SearchFormLabel;

@@ -1,4 +1,3 @@
-require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -13,7 +12,6 @@ app.use(bodyParser.json());
 app.use(express.static("client/build"));
 // Add routes, both API and view
 app.use(routes);
-console.log(process.env.NYT_LOCAL_KEY);
 
 // Set up promises with mongoose
 mongoose.Promise = global.Promise;

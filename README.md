@@ -4,7 +4,7 @@ A web app which allows users to search the New York Times Articles API for a cus
 Visit the deployed site [here](https://nyt-article-saver-js.herokuapp.com/)
 
 ## Motivation
-To create an app for people wanting to search and read old and current news articles, and to do so utilizing MongoDB, Express.js, React.js and Node.js.
+To create an app for people wanting to search and read old and current news articles, and to do so utilizing MongoDB, Express.js, React.js, and Node.js.
 
 ## Tech/framework used
 <b>Built with</b>
