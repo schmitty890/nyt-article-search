@@ -5,7 +5,6 @@ router.route("/")
   .get(articlesController.findAll)
   .post(articlesController.create);
 
-
 router.route("/:id")
   .delete(articlesController.remove);
 
