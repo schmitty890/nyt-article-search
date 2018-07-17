@@ -1,5 +1,5 @@
 {
-  "name": "new-york-times-react-app",
+  "name": "nyt-article-search",
   "version": "1.0.0",
   "description": "an app built with the MERN stack to query the NYT articles API, display results, and save articles",
   "main": "server.js",
