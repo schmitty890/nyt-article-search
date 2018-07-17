@@ -12,7 +12,7 @@ const styles = {
   }
 };
 
-const well = (props) => (
+const ArticleWell = (props) => (
   <div className="well" id={props.articleId}>
     <h3 className="articleHeadline">
       <strong>{props.headline}</strong>
@@ -25,4 +25,4 @@ const well = (props) => (
   </div>
 );
 
-export default well;
+export default ArticleWell;
