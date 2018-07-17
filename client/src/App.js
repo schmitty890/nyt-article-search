@@ -1,22 +1,22 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Nav from "./components/Nav/Nav";
-import Search from "./pages/Search/Search";
-import SavedArticles from './pages/SavedArticles/SavedArticles';
-import NoMatch from "./pages/NoMatch/NoMatch";
+import Books from "./pages/Books";
+import Detail from "./pages/Detail";
+import NoMatch from "./pages/NoMatch";
+import Nav from "./components/Nav";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-const App = () =>
+const App = () => (  
   <Router>
     <div>
       <Nav />
       <Switch>
-        <Route exact path="/" component={Search} />
-        <Route exact path="/home" component={Search} />
-        <Route exact path="/search" component={Search} />
-        <Route exact path="/saved/" component={SavedArticles} />
+        <Route exact path="/" component={Books} />
+        <Route exact path="/books" component={Books} />
+        <Route exact path="/books/:id" component={Detail} />
         <Route component={NoMatch} />
       </Switch>
     </div>
-  </Router>;
+  </Router>
+);
 
 export default App;
