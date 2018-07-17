@@ -1,6 +1,6 @@
 import React from 'react';
 
-const panel = (props) => (
+const Panel = (props) => (
   <div className="panel panel-primary">
     <div className="panel-heading">
       <h3 className="panel-title text-center">{props.title}</h3>
@@ -11,4 +11,4 @@ const panel = (props) => (
   </div>
 );
 
-export default panel;
+export default Panel;
